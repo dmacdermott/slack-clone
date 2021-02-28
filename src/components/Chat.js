@@ -65,7 +65,11 @@ const Chat = () => {
 
             <ChatBottom ref={chatRef} />
           </ChatMessages>
-          <ChatInput channelId={roomId} chatRef={chatRef}></ChatInput>
+          <ChatInput
+            channelId={roomId}
+            chatRef={chatRef}
+            channelName={roomDetails.data().name}
+          ></ChatInput>
         </>
       )}
     </ChatContainer>

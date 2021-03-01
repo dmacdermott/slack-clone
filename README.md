@@ -2,7 +2,7 @@
 
 ## 👷‍How it's built
 - React
-- Styled.components 💅
+- Styled-components 💅
 - Redux
 - Firebase
 - Google Login
